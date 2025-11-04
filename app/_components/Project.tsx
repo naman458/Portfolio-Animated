@@ -101,7 +101,7 @@ const Project = ({ index, project, selectedProject, onMouseEnter }: Props) => {
           </h4>
 
           <p className="text-sm text-muted-foreground/70 mt-1 italic">
-            peep it 👀 — {project.shortDescription || 'check the vibe'}
+            peep it 👀 — {project.description || 'check the vibe'}
           </p>
 
           <div className="mt-3 flex flex-wrap gap-2">
