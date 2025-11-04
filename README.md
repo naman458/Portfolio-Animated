@@ -1,6 +1,6 @@
 # 🌐 Naman Maheshwari — Portfolio
 
-![image](https://github.com/user-attachments/assets/ade45c4b-b2cb-46cb-b8a6-31cad3bd0c5a)
+![image](https://github.com/naman458/Naman-Portfolio/blob/main/public/projects/images/Screenshot%202025-11-04%20154031.png)
 
 ### 🔗 Live Website
 
