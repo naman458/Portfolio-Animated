@@ -100,9 +100,12 @@ const Project = ({ index, project, selectedProject, onMouseEnter }: Props) => {
             </span>
           </h4>
 
-          <p className="text-sm text-muted-foreground/70 mt-1 italic">
-            peep it 👀 — {project.description || 'check the vibe'}
-          </p>
+          <div
+            className="text-sm text-muted-foreground/70 mt-1 italic"
+            dangerouslySetInnerHTML={{
+              __html: `peep it 👀 — ${project.description || 'check the vibe'}`,
+            }}
+          />
 
           <div className="mt-3 flex flex-wrap gap-2">
             {project.techStack.slice(0, 4).map((tech) => (
