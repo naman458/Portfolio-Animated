@@ -9,6 +9,7 @@ export default function Home() {
             <Banner />
             <AboutMe />
             <Skills />
+            <div className="mt-32"></div>  
             <ProjectList />
         </div>
     );
