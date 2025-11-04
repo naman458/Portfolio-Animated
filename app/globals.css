@@ -45,6 +45,15 @@
         @apply bg-background text-foreground font-roboto-flex;
     }
 }
+@keyframes gradientMove {
+  0% { background-position: right; }
+  100% { background-position: left; }
+}
+
+.animate-gradient {
+  animation: gradientMove 3s ease-in-out infinite alternate;
+}
+
 
 @layer components {
     .grid {
@@ -55,3 +64,4 @@
         @apply pl-5 mt-2 list-disc;
     }
 }
+
