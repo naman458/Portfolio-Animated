@@ -38,7 +38,7 @@ const Banner = () => {
             >
                 <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[544px]">
                     <h1 className="banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton">
-                        <span className="text-primary">ASPIRANT</span>
+                        <span className="text-primary"> ASPIRANT</span>
                         <br /> <span className="ml-4">AI DATA ENGINEER</span>
                     </h1>
 
